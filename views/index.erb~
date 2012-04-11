@@ -1,17 +1,33 @@
 <html> 
-<head> Welcome </head> 
-<body> <h1> hello index page </h1>
-<p> sunflowers </p>
-<link href="theme.css" media="screen" rel="stylesheet" type="text/css" />
-<p> films and colour </p>
-<p><a href= '/page1' >
-Go to Page One
-</a> </p>
-<p> <a href= '/page2' >
-Go to Page Two
-</a> </p>
-<p> <a href= '/page3' >
-Go to Page Three
-</a> </p> 
-</head>
+<head> 
+<title> WoollySheep.com </title> 
+<link rel="stylesheet" type="text/css"href="theme.css"/>
+<ul>
+  <li> Home </li>
+  <li> Products </li>
+  <li> About </li>
+  <li> Contact </li>
+</ul>
+</head> 
+<h1> WoollySheep.com </h>
+<p><img src="http://images.clipartof.com/small/443509-Cartoon-Sheep-Connected-To-Yarn-Poster-Art-Print.jpg" width="200" alt=WoollySheep /> 
+<p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
+<p id = "introduction"> I am designing and selling one of a kind hats</p>
+<p> The cost of the hats range from <strong>10-15 pounds</strong> </p> 
+ 
+<p> <ins> My favourite films and TV shows </ins> </p>
+<ol> 
+<li> Harry Potter </li>
+<li> Lord of the Rings 
+	<ul> 
+	<li> Lord of the Rings 1 </li> 
+	</ul> 
+<address> 
+<p> <a href="mailto:alice22123@hotmail.com"> 
+alice22123@hotmail.com </a> </p> 
+<p> Flat 1, 5 Crouch Hall Rd, London. </p> 
+</address> 
+<p><a href="http://facebook.com/alice.nee2/"> Facebook </a></p>
 </body> 
+</html>
+

@@ -1,19 +1,28 @@
-<html> 
-<head> 
 <title> WoollySheep.com </title> 
 <link rel="stylesheet" type="text/css"href="theme.css"/>
+</head> 
+<h1> WoollySheep.com </h>
+<p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
 <ul>
   <li> Home </li>
   <li> Products </li>
   <li> About </li>
   <li> Contact </li>
 </ul>
-</head> 
-<h1> WoollySheep.com </h>
-<p><img src="http://www.computerclipart.com/computer_clipart_images/cartoon_sheep_eating_a_flower_0521-1005-1013-3606_SMU.jpg" width="200" alt=WoollySheep /> 
-<p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
+<fieldset class="classdetail">
+ <legend> Contact Details </legend>
+  <label> Name:<br />
+  <input type="text" name="name" /></label><br />
+  <label> Email:<br />
+  <input type="text" name="email" /></label><br />
+</fieldset>
+<form action="https://www.example.org/subscribe.php">
+  <p> Subscribe to our email list: </p>
+<input type="text" name="email" />
+<input type="submit" id="subscribe" width="100" height="20" />
+</form>
 <p id = "introduction"> I am designing and selling one of a kind hats</p>
-<p> The cost of the hats range from <strong>£10-£15 pounds</strong> </p> 
+<p> The cost of the hats range from <strong>&pound;10-&pound;15 pounds</strong> </p> 
  
 <p> <ins> My favourite films and TV shows </ins> </p>
 <ol> 
@@ -28,6 +37,3 @@ alice22123@hotmail.com </a> </p>
 <p> Flat 1, 5 Crouch Hall Rd, London. </p> 
 </address> 
 <p><a href="http://facebook.com/alice.nee2/"> Facebook </a></p>
-</body> 
-</html>
-

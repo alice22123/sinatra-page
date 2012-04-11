@@ -16,7 +16,7 @@ get '/page3' do
   erb :page3
 end
 
-gets '/page4' do 
+get '/page4' do 
   erb :page4
 end
 

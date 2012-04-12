@@ -11,8 +11,29 @@ background-position:right;
 }
 
 body{
-	width:90%;
-	margin: 0 auto;}
+	width:80%;
+	margin: 0 auto;
+	float:center;
+}
+
+#header, #footer{
+	overflow:auto;
+	margin: 10px;
+	text-align: center;
+}
+
+#page{
+	overflow:auto;
+}
+
+#content {
+
+}
+
+#right,#left {
+	width:50%;
+	float:left;
+}
 
 
 .nav li{

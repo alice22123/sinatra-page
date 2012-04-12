@@ -7,12 +7,33 @@ body{
 background-image:url('http://www.computerclipart.com/computer_clipart_images/cartoon_sheep_eating_a_flower_0521-1005-1013-3606_SMU.jpg');
 background-repeat:no-repeat;
 background-attachment:fixed;
-background-position:center; 
+background-position:right; 
 }
 
 body{
-	width:90%;
-	margin: 0 auto;}
+	width:80%;
+	margin: 0 auto;
+	float:center;
+}
+
+#header, #footer{
+	overflow:auto;
+	margin: 10px;
+	text-align: center;
+}
+
+#page{
+	overflow:auto;
+}
+
+#content {
+
+}
+
+#right,#left {
+	width:50%;
+	float:left;
+}
 
 
 .nav li{

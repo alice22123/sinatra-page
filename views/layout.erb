@@ -16,6 +16,7 @@
    </div>
    <div id='page' id='twitter'>
 <script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+   	<%= yield %>
 <script>
 new TWTR.Widget({
   version: 2,
@@ -43,7 +44,6 @@ new TWTR.Widget({
   }
 }).render().setUser('WoollySheepcom').start();
 </script>
-   	<%= yield %>
    </div>
    <div id='footer'>
   <p> CopyRight 2012 </p>

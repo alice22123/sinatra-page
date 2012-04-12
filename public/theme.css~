@@ -40,14 +40,18 @@ body{
 
 }
 
-#right,#left {
+#right{
+	width:50%;
+	float:right;
+}
+
+#left{
 	width:50%;
 	float:left;
-}
+]
 
 
 .nav li{
-color:orange;
 font-size:15pt;
 display:inline;
 margin-right: 10px;

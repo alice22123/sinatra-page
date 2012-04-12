@@ -1,17 +1,6 @@
 <title> WoollySheep.com </title> 
-<link rel="stylesheet" type="text/css"href="theme.css"/>
-<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
-<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
  
-<h1> WoollySheep.com </h>
 <p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
-
-<p><ul>
-  <li> Home </li>
-  <li> Products </li>
-  <li> About </li>
-  <li> Contact </li>
-</ul></p>
 
 <fieldset class="contactdetail">
  <legend> Contact Details </legend>
@@ -36,8 +25,8 @@
 	<li> Lord of the Rings 1 </li> 
 	</ul> 
 <address> 
-<p> <a href="mailto:alice22123@hotmail.com"> 
-alice22123@hotmail.com </a> </p> 
-<p> Flat 1, 5 Crouch Hall Rd, London. </p> 
+<p> <a href="mailto:woollysheep22123@gmail.com"> 
+woollysheep22123@gmail.com </a> </p> 
+<p> Flat 1, 5 Crouch Hall Rd, London </p> 
 </address> 
 <p><a href="http://facebook.com/alice.nee2/"> Facebook </a></p>

@@ -5,24 +5,23 @@ color:purple;
 body{
 background: url('http://www.computerclipart.com/computer_clipart_images/cartoon_sheep_eating_a_flower_0521-1005-1013-3606_SMU.jpg') no-repeat;
 background-size:800px 800px;
-
 }
 
 li:hover{
 color:blue;
 font-size: 20pt;
 }
-#introduction {
+#introduction{
 color:red;
 }
-#subscribe {
+#subscribe{
 font-family: 'Russo One', sans-serif;
 }
 h1{
 font-family: 'Gochi Hand', cursive;
 }
 
-.contactdetail {
+.contactdetail{
 width: 200px;
 }
 

@@ -10,7 +10,10 @@ background-size:800px 800px;
 li:hover{
 color:blue;
 font-size: 20pt;
+display: inline;
+margin -right: 10px;
 }
+
 #introduction{
 color:red;
 }

@@ -37,7 +37,7 @@ body{
 }
 
 #content {
-
+text-align: center;
 }
 
 #right{
@@ -48,6 +48,14 @@ body{
 #left{
 	width:50%;
 	float:left;
+}
+
+h2 {
+font-family: 'Gochi Hand', cursive;
+}
+
+h3 {
+font-family: 'Gochi Hand', cursive;
 }
 
 

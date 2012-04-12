@@ -23,6 +23,19 @@ get '/page4' do
   erb :page4
 end
 
+get '/page5' do
+	erb :page5
+end 
+
+get '/page6' do 
+	erb :page6 
+end
+
+get '/page7' do 
+	erb :page7
+end 
+
+
 post '/people' do
   DB = Sequel.sqlite
   @people_store = DB[:people]

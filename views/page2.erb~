@@ -31,7 +31,7 @@
 <input type="radio" name="genre" value="blue" checked="checked"/>
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Auto_Racing_Plain_Blue.svg/800px-Auto_Racing_Plain_Blue.svg.png" alt="blue" width="50" align="centre"/>
 <input type="radio" name="genre" value="white" checked="checked"/>
-<img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Auto_Racing_White.svg/800px-Auto_Racing_White.svg.png" alt="white" width="50"align="centre"/>
+<img src="" alt="white" width="50"align="centre"/>
 <input type="radio" name="genre" value="black" checked="checked"/>
-<img src="http://www.freeimagesarchive.com/data/media/206/1_black.jpg" alt="Black" width="50" align="centre"/>
+<img src="" alt="Black" width="50" align="centre"/>
 

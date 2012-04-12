@@ -1,8 +1,7 @@
 require 'sinatra'
 require "sinatra/reloader"
 require 'sequel'
-DB = Sequel.sqlite
-@people_store = DB[:people]
+
 
 get '/' do 
   erb :index
@@ -25,6 +24,8 @@ get '/page4' do
 end
 
 post '/people' do
+  DB = Sequel.sqlite
+  @people_store = DB[:people]
   email = params[:email]
   @people_store.insert(:email => email)
 end

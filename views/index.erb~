@@ -1,5 +1,7 @@
 <title> WoollySheep.com </title> 
 <link rel="stylesheet" type="text/css"href="theme.css"/>
+<link href='http://fonts.googleapis.com/css?family=Russo+One' rel='stylesheet' type='text/css'>
+<link href='http://fonts.googleapis.com/css?family=Gochi+Hand' rel='stylesheet' type='text/css'>
 </head> 
 <h1> WoollySheep.com </h>
 <p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
@@ -9,7 +11,7 @@
   <li> About </li>
   <li> Contact </li>
 </ul>
-<fieldset class="classdetail">
+<fieldset class="contactdetail">
  <legend> Contact Details </legend>
   <label> Name:<br />
   <input type="text" name="name" /></label><br />

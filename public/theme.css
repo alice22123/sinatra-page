@@ -1,5 +1,15 @@
 p{
-color:#0022FF;
+color:black;
+font-family: 'Gochi Hand', cursive;
+}
+
+li{
+color:black;
+font-family: 'Gochi Hand', cursive;
+}
+
+h3{
+color:#FF8C00;
 font-family: 'Gochi Hand', cursive;
 }
 
@@ -37,7 +47,6 @@ body{
 
 
 .nav li{
-color:#0022FF;
 font-size:15pt;
 display:inline;
 margin-right: 10px;

@@ -1,40 +1,30 @@
 <body>
 <title> WoollySheep.com </title> 
  
-<p> <h3> Hello, my name is <em> Alice Nee </em> and I am creating a one-of-a-kind crocheted hats. </h3> </p> 
+<p> <h3> Hello, my name is <em> Alice Nee </em> and I am a student. I wanted to start a website to be able to sell my hats. These hats are one of a kind as people can choose the colour, size and style when ordering one, having your owe twist on the hat. </h3> </p> 
 <div id='content'>
 <div id='left'>
-<fieldset class="contactdetail">
- <legend> Contact Details </legend>
-  <label> Name:<br />
-  <input type="text" name="name" /></label><br />
-  <label> Email:<br />
-  <input type="text" name="email" /></label><br />
-</fieldset>
 <form action="/people" method="post">
   <p> Subscribe to our email list: </p>
 <input type="text" name="email" />
 <input type="submit" id="subscribe" width="100" height="20" />
 </form>
 <address> 
-<p> <a href="mailto:woollysheep22123@gmail.com"> 
-woollysheep22123@gmail.com </a> </p> 
-<p> Flat 1, 5 Crouch Hall Rd, London </p> 
+<p> Contact me on: <a href="mailto:woollysheep22123@gmail.com"> 
+woollysheep22123@gmail.com </a> </p>  
 </address> 
-<p><a href="http://facebook.com/alice.nee2/"> WoollySheep.com Facebook Page </a></p>
-<p><a href="https://twitter.com/#!/WoollySheepcom"> WoollySheep.com Twitter </a> </p>
+<p><a href="http://facebook.com/alice.nee2/"> WoollySheep.com - Facebook Page </a></p>
+<p><a href="https://twitter.com/#!/WoollySheepcom"> WoollySheep.com - Twitter </a> </p>
 </div>
 <div id='right'>
 <p id = "introduction"> I am designing and selling one of a kind hats</p>
 <p> The cost of the hats range from <strong>&pound;10-&pound;15 pounds</strong> </p> 
  
-	<p> <ins> My favourite films and TV shows </ins> </p>
+	<p> <ins> Some information about ME! </ins> </p>
 	<ol> 
-	<li> Harry Potter </li>
-	<li> Lord of the Rings 
-	<ul> 
-	<li> Lord of the Rings 1 </li> 
-	</ul> 
+	<li> I am a student that will hopefully be heading off to Unversity next year. </li>
+	<li> I enjoy playing sports. My main sport is rugby, which I play and train with Sarries.  
+	<li> I enjoy crocheting, which I started up about 5 years ago after being taught by a friend of mine, who was raising money for his ski trips! </li> 
 	</div>
 </div>
 

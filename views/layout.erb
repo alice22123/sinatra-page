@@ -14,11 +14,40 @@
 		  <li><a href="/page3"> Contact </a></li>
 		</ul></p>
    </div>
-   <div id='page'>
+   <div id='page' id='twitter'>
+<script charset="utf-8" src="http://widgets.twimg.com/j/2/widget.js"></script>
+<script>
+new TWTR.Widget({
+  version: 2,
+  type: 'profile',
+  rpp: 5,
+  interval: 30000,
+  width: 250,
+  height: 300,
+  theme: {
+    shell: {
+      background: '#ffff0a',
+      color: '#0f0f0f'
+    },
+    tweets: {
+      background: '#ffffff',
+      color: '#050505',
+      links: '#071aeb'
+    }
+  },
+  features: {
+    scrollbar: false,
+    loop: false,
+    live: false,
+    behavior: 'all'
+  }
+}).render().setUser('WoollySheepcom').start();
+</script>
    	<%= yield %>
    </div>
    <div id='footer'>
   <p> CopyRight 2012 </p>
    </div>
+	
 </body>
 </html>

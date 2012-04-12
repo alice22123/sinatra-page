@@ -18,6 +18,7 @@
    	<%= yield %>
    </div>
    <div id='footer'>
+  <p> CopyRight 2012 </p>
    </div>
 </body>
 </html>

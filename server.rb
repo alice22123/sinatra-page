@@ -8,6 +8,7 @@ get '/' do
 end
 
 get '/page1' do
+  @images = ["img1.jpg","image2.jpg"]
   erb :page1
 end 
 

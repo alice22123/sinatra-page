@@ -1,5 +1,6 @@
 <h1> Design Your Hat </h1>
 <h3> Choose a Design </h3>
+<form action='/order'>
 <input type="radio" name="genre" value="Design 1" checked="checked"/> Design 1
 <img src="http://www.teaandcrafting.co.uk/wp-content/uploads/2010/10/Blue_hat_on_white_background-RESIZED.jpg" alt="Beanie Hat" width="100" align="centre"/>
 <input type="radio" name="genre" value="Design 2" check="checked"/> Design 2
@@ -8,30 +9,31 @@
 <img src="http://1.bp.blogspot.com/_fmVIH7Hu4Eg/Sm3mbosDDHI/AAAAAAAAABU/gsP5NvdfjSU/s320/Imagen+673-1.jpg" alt="Beret" width="100" align="centre"/>
 
 <h3> Hand Measurement </h3>
-<input type="text" name="Hand Measurement" size="15" placeholder="cm"/>
-<h3> Colours </h3>
-<input type="radio" name="genre" value="yellow" checked="checked"/>
+<input type="text" name="hand_measurement" size="15" placeholder="cm"/>
+<h3> Choose a Colours </h3>
+<input type="checkbox" name="colour[]" value="yellow" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/9/94/Auto_Racing_Yellow.svg/800px-Auto_Racing_Yellow.svg.png" alt="Yellow" width="50" align="centre"/>
-<input type="radio" name="genre" value="orange" checked="checked"/>
+<input type="checkbox" name="colour[]" value="orange" />
 <img src="http://3.bp.blogspot.com/-miWbiYmpe1o/TficIspT1fI/AAAAAAAAAIM/FuxlpwWko9Y/s1600/orange.png" alt="Orange" width="50" align="centre"/>
-<input type="radio" name="genre" value="red" checked="checked"/>
+<input type="checkbox" name="colour[]" value="red" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/5/55/Auto_Racing_Red.svg/800px-Auto_Racing_Red.svg.png" alt="Red" width="50" align="centre"/>
-<input type="radio" name="genre" value="light blue" checked="checked"/>
+<input type="checkbox" name="colour[]" value="light blue" />
 <img src="http://www.bmhfeedgear.co.uk/media/colours/colour%20images/LIGHT%20BLUE.jpg" alt="light blue" width="50" align="centre"/>
-<input type="radio" name="genre" value="light green" checked="checked"/>
+<input type="checkbox" name="colour[]" value="light green" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/2/23/Light_green.PNG" alt="light green" width="50" align="centre"/>
-<input type="radio" name="genre" value="turq" checked="checked"/>
+<input type="checkbox" name="colour[]" value="turq" />
 <img src="http://www.dsgnwrld.com/wp-content/uploads/pantone-color-of-the-year-2010-turquoise.jpg" alt="turq" width="50" align="centre"/>
-<input type="radio" name="genre" value="pink" checked="checked"/>
+<input type="checkbox" name="colour[]" value="pink" />
 <img src="http://www.loghome.com/images/Articles/pink-color-background.jpg" alt="pink" width="50" align="centre"/>
-<input type="radio" name="genre" value="light pink" checked="checked"/>
+<input type="checkbox" name="colour[]" value="light pink" />
 <img src="http://images.kaneva.com/filestore8/4449233/5443549/PaperLightPink.jpg" alt="light pink" width="50" align="centre"/>
-<input type="radio" name="genre" value="purple" checked="checked"/>
+<input type="checkbox" name="colour[]" value="purple" />
 <img src="http://lemonadelife.com/wp-content/uploads/2011/03/Purple-Suede.jpg" alt="purple" width="50" align="centre"/>
-<input type="radio" name="genre" value="blue" checked="checked"/>
+<input type="checkbox" name="colour[]" value="blue" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/fe/Auto_Racing_Plain_Blue.svg/800px-Auto_Racing_Plain_Blue.svg.png" alt="blue" width="50" align="centre"/>
-<input type="radio" name="genre" value="white" checked="checked"/>
+<input type="checkbox" name="colour[]" value="white" />
 <img src="http://upload.wikimedia.org/wikipedia/commons/thumb/7/7a/Auto_Racing_White.svg/800px-Auto_Racing_White.svg.png" alt="white" width="50"align="centre"/>
-<input type="radio" name="genre" value="black" checked="checked"/>
+<input type="checkbox" name="colour[]" value="black" />
 <img src="http://www.freeimagesarchive.com/data/media/206/1_black.jpg" alt="Black" width="50" align="centre"/>
-
+<p><input type='submit'/></p>
+</form>

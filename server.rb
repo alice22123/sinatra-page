@@ -8,7 +8,7 @@ get '/' do
 end
 
 get '/page1' do
-  @images = ["img1.jpg","image2.jpg"]
+  @images = ["shelterlogo.jpg"]
   erb :page1
 end 
 
@@ -35,6 +35,10 @@ end
 get '/page7' do 
 	erb :page7
 end 
+
+get '/order' do
+  erb :order
+end
 
 
 post '/people' do
